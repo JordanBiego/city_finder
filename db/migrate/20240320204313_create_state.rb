@@ -3,7 +3,6 @@ class CreateState < ActiveRecord::Migration[5.1]
     create_table :states do |t|
       t.string :name
       t.integer :total_cities
-      t.boolean :available
     end
   end
 
@@ -11,7 +10,6 @@ class CreateState < ActiveRecord::Migration[5.1]
     drop_table :states do |t|
       t.string :name
       t.integer :total_cities
-      t.boolean :available
     end
   end
 end
