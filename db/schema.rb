@@ -16,13 +16,13 @@ ActiveRecord::Schema.define(version: 20240320213312) do
   enable_extension "plpgsql"
 
   create_table "cities", force: :cascade do |t|
-    t.string "state_id"
+    t.integer "state_id"
     t.string "name"
   end
 
   create_table "states", force: :cascade do |t|
     t.string "name"
-    t.integer "total_cities"
+    t.string "acronym"
   end
 
 end
