@@ -18,6 +18,8 @@ services:
       - db
     # Ensure the Rails server is running
     command: ["bin/rails", "server", "-b", "0.0.0.0", "-p", "3000"]
+    stdin_open: true
+    tty: true
 
   db:
     image: postgres:latest

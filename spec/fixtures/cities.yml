@@ -1,0 +1,43 @@
+florianopolis:
+  name: "Florianopolis"
+  state: :santa_catarina
+
+blumenau:
+  name: "Blumenau"
+  state: :santa_catarina
+
+joinville:
+  name: "Joinville"
+  state: :santa_catarina
+
+sao_jose:
+  name: "São José"
+  state: :santa_catarina
+
+lages:
+  name: "Lages"
+  state: :santa_catarina
+
+curitiba:
+  name: "Curitiba"
+  state: :parana
+
+londrina:
+  name: "Londrina"
+  state: :parana
+
+toledo:
+  name: "Tolêdo"
+  state: :parana
+
+pelotas:
+  name: "Pelotas"
+  state: :rio_grande_do_sul
+
+porto_alegre:
+  name: "Porto Alegre"
+  state: :rio_grande_do_sul
+
+santa_maria:
+  name: "Santa Maria"
+  state: :rio_grande_do_sul

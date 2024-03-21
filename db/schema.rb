@@ -18,11 +18,11 @@ ActiveRecord::Schema.define(version: 20240320213312) do
   create_table "cities", force: :cascade do |t|
     t.integer "state_id"
     t.string "name"
+    t.string "state_acronym"
   end
 
   create_table "states", force: :cascade do |t|
     t.string "name"
-    t.string "acronym"
   end
 
 end
