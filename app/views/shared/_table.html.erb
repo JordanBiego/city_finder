@@ -1,0 +1,26 @@
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-12 col-md-12 col-lg-12 col-xl-12 text-center">
+        <br>
+        <h3><strong>Cidades Disponíveis</strong></h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Estado</th>
+              <th scope="col">Cidade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @cities.each do |c| %>
+              <tr>
+                <td><%= c.state_acronym %></td>
+                <td><%= c.name %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
