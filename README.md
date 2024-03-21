@@ -1,24 +1,56 @@
-# README
+# City Finder - Test Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/JordanBiego/city_finder/blob/develop/README.pt-br.md)
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This project is a test application for a job at Embarca. Its simple citie search feature where you can search trough cities or states.
 
-* System dependencies
+## Requirements
 
-* Configuration
+- **Docker**;
+- **Docker-compose**;
 
-* Database creation
 
-* Database initialization
+## Installation
 
-* How to run the test suite
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JordanBiego/city_finder.git
+   ```
+2. Navigate to the project directory:
+    ```bash
+    cd city_finder
+    ```
+3. Build the Docker containers:
+    ```bash
+    docker-compose build
+    ```
+4. Run the migrations:
+    ```bash
+    docker-compose run web bin/rails db:migrate
+    ```
+5. Run the seed to populate the database:
+    ```bash
+    docker-compose run web bin/rails db:seed
+    ```
+6. Run tests:
+    ```bash
+    docker-compose run web bin/rspec
+    ```  
+7. Run the app:
+    ```bash
+    docker-compose up
+    ```
+8. Visit http://localhost:3000 in your browser.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Usage
 
-* Deployment instructions
+1. Access the application at http://localhost:3000.
+2. Users can search cities using the interface.
+3. Run tests usin RSpec.
 
-* ...
+## License:
+
+This project is purely educational, please do not redistribute without consent!
+
