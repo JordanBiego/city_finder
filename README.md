@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is a test application for a job at Embarca. Its simple citie search feature where you can search trough cities or states.
+This project is a test application for a job at Embarca. Its a simple city search feature where you can search trough cities or states.
 
 ## Requirements
 
