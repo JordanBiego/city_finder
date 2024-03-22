@@ -48,7 +48,7 @@ This project is a test application for a job at Embarca. Its a simple city searc
 
 1. Access the application at http://localhost:3000.
 2. Users can search cities using the interface.
-3. Run tests usin RSpec.
+3. Run tests using RSpec.
 
 ## License:
 
