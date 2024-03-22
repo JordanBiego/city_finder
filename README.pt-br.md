@@ -48,7 +48,7 @@ Esse é um projeto teste referente a uma oportunidade na Embarca, Trata-se de um
 
 1. Acesse a aplicação em http://localhost:3000.
 2. Usuários podem pesquisar cidades na interface.
-3. Execute os teste com o RSpec.
+3. Execute os testes com o RSpec.
 
 ## License:
 
